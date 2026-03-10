@@ -161,7 +161,7 @@ int main(int argc, char *argv[]) {
   }
 
   if (total_drivers <= 0) {
-    printf("Usage: %s --total_drivers <number_greater_than_0>\n", argv[0]);
+    printf("Usage: %s --total_drivers <number_greater_than_0> [--semaphore]\n", argv[0]);
     return 1;
   }
 
